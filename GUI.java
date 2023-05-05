@@ -76,7 +76,7 @@ public class GUI extends JFrame {
 		lblNewLabel_2.setBounds(50, 123, 46, 14);
 		contentPane.add(lblNewLabel_2);
 		
-		btnNewButton = new JButton("agregar");
+		btnNewButton = new JButton("objeto");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String nombre =textnombre.getText();
